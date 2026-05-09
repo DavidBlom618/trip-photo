@@ -22,7 +22,9 @@
       "Bash(git config *)",
       "Bash(git commit *)",
       "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(node upload-site.js)",
+      "Bash(curl *)"
     ]
   }
 }
