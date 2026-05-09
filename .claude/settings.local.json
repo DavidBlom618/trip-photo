@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(git --version)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npx vercel *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(npx vercel@52 --prod)",
+      "Bash(npx vercel@52 --prod --name trip-photo)",
+      "Bash(npx vercel@52 env add VITE_SUPABASE_URL production)",
+      "Bash(npx vercel@52 env add VITE_SUPABASE_URL production --value \"https://ykoipcgzyhekrfeccuoj.supabase.co\" --yes)",
+      "Bash(npx vercel@52 env add VITE_SUPABASE_ANON_KEY production --value \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlrb2lwY2d6eWhla3JmZWNjdW9qIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgzMzk4NTgsImV4cCI6MjA5MzkxNTg1OH0.NhpiRy0vwEtUt9ZmZIwyIny47gljoeCnEFi0lZ7pbXw\" --yes)",
+      "Bash(npx wrangler@latest pages deploy dist --project-name trip-photo --branch master)",
+      "Bash(gh auth *)",
+      "Bash(winget install *)",
+      "Bash(gh *)",
+      "Bash(where gh *)",
+      "Read(//c/Program Files/GitHub CLI/**)",
+      "Bash(git config *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
