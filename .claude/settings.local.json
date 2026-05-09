@@ -20,7 +20,9 @@
       "Bash(where gh *)",
       "Read(//c/Program Files/GitHub CLI/**)",
       "Bash(git config *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(git push *)"
     ]
   }
 }
